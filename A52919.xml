@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="http://www.textcreationpartnership.org/docs/code/pfs.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A New diurnall of passages more exactly drawne up then heretofore ordered to be printed and published.</title>
+         </titleStmt>
+         <extent>Approx. 15KB of XML-encoded text transcribed from 5 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2016-02">2016-02 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A52919</idno><idno type="EEBO-CITATION">7940643</idno>
+  <idno type="VID">40588</idno>
+  <idno type="EEBO-PROQUEST">2264208474</idno>
+  
+            <idno type="STC">Wing N631</idno>
+            <idno type="STC">ESTC R24022</idno>
+            <idno type="OCLC">07940643</idno>
+            <availability><p>This keyboarded and encoded edition of the work described above is co-owned by the
+    institutions providing financial support to the Early English Books Online Text Creation
+    Partnership. This text is available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/"> Creative Commons 0 1.0 Universal
+    licence</ref>. The text can be copied, modified, distributed and performed, even for commercial
+    purposes, all without asking permission.</p></availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt><relatedItem type="facs" target="https://data.historicaltexts.jisc.ac.uk/view?pubId=eebo-e"/>
+            <note>(EEBO-TCP ; phase 2, no. A52919)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 40588)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1210:25)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A New diurnall of passages more exactly drawne up then heretofore ordered to be printed and published.</title>
+               </titleStmt>
+               <extent>[8] p.   </extent>
+               <publicationStmt>
+                  <publisher>For H.H.,</publisher>
+                  <pubPlace>Printed at Oxford :</pubPlace>
+                  <date>1643.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Caption title.</note>
+                  <note>In verse.</note>
+                  <note>Reproduction of original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Full documentation of the original data capture process is available from the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.
+   All versions of the texts are now archived and freely available for download. See <ref target="https://textcreationpartnership.org/faq/#faq05">the TCP Download FAQ</ref>
+   for detailed information. The TEI P5 versions are also freely available from the <ref target="https://github.com/textcreationpartnership">TCP Github repository</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp" matchPattern="([0-9\-]+):([0-9IVX]+)" replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char" matchPattern="(.+)" replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term type="geographic_name">Great Britain --  History --  Civil War, 1642-1649 --  Poetry.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2014-06 </date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images </change>
+         <change>
+            <date>2014-11 </date>
+            <label>John Pas </label>Sampled and proofread </change>
+         <change>
+            <date>2014-11 </date>
+            <label>John Pas</label>Text and markup reviewed and edited </change>
+         <change>
+            <date>2015-03 </date>
+            <label>pfs</label>Batch review (QC) and XML conversion </change>
+      <change><date>2021-05 </date><label>lb</label>TEI P5 conversion </change></revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="poem">
+            <pb facs="tcp:40588:1"/>
+            <pb facs="tcp:40588:1"/>
+            <head>A new Diurnall of Passages more exactly drawne up then heretofore. <hi>Ordered to be printed and published.</hi>
+            </head>
+            <lg>
+               <l>SInce many Diurnals (for which we are griev'd)</l>
+               <l>Are come from both Houses, and are not believ'd.</l>
+               <l>The better to help them for running and flying,</l>
+               <l>We have put them in Verse to authorize their lying▪</l>
+               <l>For it has beene debated and found to be true,</l>
+               <l>That lying's a Parliament priviledge too.</l>
+               <l>And that they may the sooner our conquests rehearse,</l>
+               <l>We are minded to put them in galloping verse.</l>
+               <l>But so many maim'd souldiers from Reading there came,</l>
+               <l>That in spite of the Surgeons make our verses run lame.</l>
+               <l>We have ever us'd factions, and now it is knowne,</l>
+               <l>Our poverty has made us poeticall growne.</l>
+            </lg>
+            <lg>
+               <head>Monday.</head>
+               <l>On Monday both Houses fell into debate</l>
+               <l>And were likely to fall by the eares as they sate,</l>
+               <l>Yet would they not have the businesse decided.</l>
+               <l>That they (as the kingdome is) might be divided.</l>
+               <l>They had an intention to prayers to goe,</l>
+               <l>But <hi>extempore</hi> prayers are now common too.</l>
+               <l>To voting they fall, and the key of the worke</l>
+               <l>Was the raising of money for me State and the Kirke,</l>
+               <l>Tis onely free loane, yet this order they make,</l>
+               <l>That what men would give they should plunder and take:</l>
+               <l>Upon this the word plunder came into their minde,</l>
+               <l>And all of them did labour a new one to finde.</l>
+               <l>They baptiz'd it Distraining, yet thought it no shame</l>
+               <l>To persist in the act which they blusht for to name:</l>
+               <l>And among other Acts the Law to distraine</l>
+               <l>Was made by King <hi>Pius,</hi> the first yeare of his reigne.</l>
+               <l>They voted all persons from Oxford that came,</l>
+               <l>Should be apprehended, and after the same</l>
+               <l>With an humble petition the King they request</l>
+               <l>Hee'd be pleas'd to returne, and be serv'd like the rest.</l>
+               <pb facs="tcp:40588:2"/>
+               <l>A Message from Oxford conducing to peace,</l>
+               <l>Came next to their hands, that armes might cease:</l>
+               <l>They voted, and voted, and still they did vary,</l>
+               <l>Till at last the whole sense of the house was contrary</l>
+               <l>To reason; they knew by their armes they might gain<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </l>
+               <l>What neither tree reason nor law can maintaine.</l>
+               <l>Cessation was voted a dangerous plot,</l>
+               <l>Because the King would have it, both houses would not:</l>
+               <l>But when they resolv'd it abroad must be blowne,</l>
+               <l>(To baffle the world) that the King would have none.</l>
+               <l>And carefully mu<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>led the mouth of the Presse,</l>
+               <l>Lest the truth should peepe through their juggling dresse.</l>
+               <l>For they knew a Cessation would worke them more harmes,</l>
+               <l>Then Essex can doe the Cavalleres with his armes:</l>
+               <l>While they keepe the ships and the sorts in their hand,</l>
+               <l>They may be traytors by sea as well as by land.</l>
+               <l>The forts will preserve them as long as they stay,</l>
+               <l>And the ships carry them and their plunder away.</l>
+               <l>They have therefore good reason to count war the better,</l>
+               <l>For the Law will hrove to them but a killing letter.</l>
+            </lg>
+            <lg>
+               <head>Tuesday.</head>
+               <l>A Post from his Excellence came blowing his horne</l>
+               <l>For money to advance, and this spun out the morne:</l>
+               <l>And straight to the City some went for releefe,</l>
+               <l>The rest made an ordinance to carry powder beefe:</l>
+               <l>Thus up goe the Roundhea<gap reason="illegible" resp="#keyers" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>s, and Essex advance;</l>
+               <l>But onely to lead his souldiers a dance;</l>
+               <l>To Reading he goes, for at Oxford (they say)</l>
+               <l>His wife has made bulwarkes to drive him away▪</l>
+               <l>Prince <hi>Rupert</hi> for feare that the name be confounded,</l>
+               <l>Will saw off his hornes, and make him a Roundhead:</l>
+               <l>The newes was returned with generall fame,</l>
+               <l>That Reading was taken ere ever he come.</l>
+               <l>Then away rode our Captaines, and Souldiers did run,</l>
+               <l>To shew themselves valiant when the battell was done</l>
+               <l>Preparing to plunder, but as soone as they came,</l>
+               <l>They quickly perceived that it was but a flam,</l>
+               <pb facs="tcp:40588:2"/>
+               <l>An Ordinance of Parliament <hi>Essex</hi> brought downe,</l>
+               <l>But that would not serve him to batter the towne.</l>
+               <l>Money was rais'd, more men and ammunition,</l>
+               <l>Cars loaded with Turnips, and other prouision;</l>
+               <l>His Excellence had chines and Rams heads for a present,</l>
+               <l>And his Councell of war had Woodcock and Pheasant,</l>
+               <l>But <hi>Gray</hi> had 5000. Calves heads all in carts,</l>
+               <l>To nourish his men, and to cheare up their hearts.</l>
+               <l>This made them so valiant, that that very day</l>
+               <l>They had taken ihe towne but for running away.</l>
+               <l>Twas ordered this day that thanksgiving be made</l>
+               <l>To the Roundheads in Sermons for their beefe and their br<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ad.</l>
+            </lg>
+            <lg>
+               <head>VVednesday.</head>
+               <l>Two Members this day at a conference sate,</l>
+               <l>And one gives the other a knock on the pate,</l>
+               <l>This set them a voting, and the upper house swore</l>
+               <l>Twas a breach of priviledge he gave him no more,</l>
+               <l>The lower the breaking of <hi>Martins</hi> head voted,</l>
+               <l>A high breach of priviledge for it is to be noted,</l>
+               <l>That treason and priuiledge in it did grow,</l>
+               <l>Twas a breach of his crowne and dignity too.</l>
+               <l>Then came in the women with a long long Petition,</l>
+               <l>To settle Militia and the Commission,</l>
+               <l>For if fighting continue, they said they did feare</l>
+               <l>That men would be scarce, and husbands be deare.</l>
+               <l>So plainly the Speaker the businesse untyes,</l>
+               <l>That presently all the members did rise:</l>
+               <l>They had hardly the leasure all things to lay ope,</l>
+               <l>But some felt in their bellies if they had not a Pope.</l>
+               <l>Some stifly stood to them, and others did feare</l>
+               <l>Each carried about them a fierce Cauallere.</l>
+               <l>This businesse was handled by the Close Committee,</l>
+               <l>That privately met at a place in the City:</l>
+               <l>So closely to voting the Members did fell,</l>
+               <l>That the humble sisters were overthrowne all:</l>
+               <l>But they and their helpers came short at the last,</l>
+               <l>Till at length the whole work on Prince <hi>Griffith</hi> was cast,</l>
+               <pb facs="tcp:40588:3"/>
+               <l>And he with his Tro<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>p did so handle the matter,</l>
+               <l>He pleas'd every woman as soone as he came <gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>t <gap reason="illegible" resp="#keyers" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>.</l>
+               <l>The businesse had like to have gone on their si<gap reason="illegible" resp="#keyers" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>,</l>
+               <l>Had not <hi>Pim</hi> perswaded them not to confide,</l>
+               <l>For rather then peace, to fill the Commonwealth</l>
+               <l>He said hee'd doe ten every night himselfe.</l>
+            </lg>
+            <lg>
+               <head>Thursday.</head>
+               <l>This day a great s<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>tt in the house they did heare,</l>
+               <l>Which made the five Members make buttons for <gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>eare;</l>
+               <l>Sir <hi>Iohn VVray</hi> makes 9. speeches while the businesse was not,</l>
+               <l>And spake through the nose that he smelt out the plot:</l>
+               <l>He takes it to taske, and the Articles drawes,</l>
+               <l>As a breach of <hi>Pims</hi> fundamentall lawes.</l>
+               <l>Now Letters were read which did fully relate</l>
+               <l>A victory 'gainst Newcastle of late,</l>
+               <l>That hundreds were flame, and hundreds did run,</l>
+               <l>And all this was got ere the battell begun.</l>
+               <l>This then they resolved to make the best on,</l>
+               <l>And next they resolved upon the question,</l>
+               <l>That bonefires and praises, the Pulpit and steeple,</l>
+               <l>Must all be usurped to flatter the people,</l>
+               <l>But the policy was more money to get,</l>
+               <l>For the conquest deare bought, and far enough set,</l>
+               <l>Such victories in Ireland, although it be knowne</l>
+               <l>They strive to make that land as bad as our owne.</l>
+               <l>No sooner the money for this was brought hither,</l>
+               <l>But a croud of true Letters came <gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ocking together,</l>
+               <l>How <hi>Hoth<gap reason="illegible" resp="#keyers" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>m</hi> and <hi>Fairefax,</hi> and others were beaten,</l>
+               <l>This made the blew <hi>Pi<gap reason="illegible" resp="#keyers" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>mists</hi> to startle and threaten,</l>
+               <l>And these by all meanes must be kept from the Citie,</l>
+               <l>And onely referr'd to the Close Committe<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>,</l>
+               <l>And they presently with an <hi>
+                     <gap reason="illegible" resp="#keyers" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>empore</hi> vote,</l>
+               <l>Which they have used so long that they have learned by r<gap reason="illegible" resp="#keyers" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>e,</l>
+               <l>They styl'd them malignant, and to lyes they did <gap reason="illegible" resp="#keyers" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ne them,</l>
+               <l>Then <hi>Corbet</hi> in stead of the hangman shall burne them,</l>
+               <l>And he after that an Ordinance drawes.</l>
+               <l>That none should tell truth that disparag'd the Cause.</l>
+               <pb facs="tcp:40588:3"/>
+               <l>Then <hi>Pim</hi> like a Pegasus trots up and downe,</l>
+               <l>And takes up an Angel to throw downe the Crowne,</l>
+               <l>He stands like a Centaure and makes a long speech,</l>
+               <l>That came from his mouth, and part from his breech:</l>
+               <l>He move a for more horse, that the army may be</l>
+               <l>Part mans flesh and horse flesh as well as he,</l>
+               <l>And hee'l be a Colonell as well as another,</l>
+               <l>But durst not ride a horse, cause a horse rid his mother.</l>
+            </lg>
+            <lg>
+               <head>Friday.</head>
+               <l>Sir <hi>Hugh Cholmly</hi> for being no longer a traytor</l>
+               <l>Was accused of treason in the highest nature,</l>
+               <l>'Cause he (as they bade him) his souldiers did bring</l>
+               <l>To turne from rebellion and fight for the King;</l>
+               <l>They voted him out, but nor he nor their men</l>
+               <l>Could vote him backe into the House agen.</l>
+               <l>Sir <hi>Davies</hi> Remonstrance next to them was read,</l>
+               <l>From the Cities Round-body, and <hi>Isaack's</hi> the head;</l>
+               <l>Twas approv'd, but one clause produc'd a deniall,</l>
+               <l>That all traytors be brought to a legall triall,</l>
+               <l>For tis against reason to vote or doe</l>
+               <l>Against traytors, when they are no other but so.</l>
+               <l>Because about nothing so long they sit still,</l>
+               <l>They hold it convenient Diurnals to fill,</l>
+               <l>And therefore they gave their Chronographer charge,</l>
+               <l>To stuffe it with Orders and Letters at large,</l>
+               <l>The King by's prerogative nor by the law</l>
+               <l>Can speake nor print nothing his people to draw,</l>
+               <l>Yet pennilesse Pamphleters they doe maintaine,</l>
+               <l>Whose onely religion is stipendary gaine,</l>
+               <l>Yet <hi>cum privil<gap reason="illegible" resp="#keyers" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>gio</hi> against King and the State,</l>
+               <l>The treason that's taught them (like Parrats) they prate,</l>
+               <l>These Hackneyes are licenc'd what ever they doe,</l>
+               <l>As if they had a Parliament priviledge too,</l>
+               <l>Thus then they consult, so zealous they are</l>
+               <l>To settle the peace of the kingdome by war,</l>
+               <l>But against civill war their hatred is such,</l>
+               <l>To prevent it, they'l bring in the Scots and the Dutch,</l>
+               <l>They had rather the Land be destroy'd in a minute,</l>
+               <pb facs="tcp:40588:4"/>
+               <pb facs="tcp:40588:4"/>
+               <l>Then abide any thing that has civility in it,</l>
+               <l>And yet their rebellion so neatly they trim,</l>
+               <l>They fight for the King but they meane for king <hi>Pim:</hi>
+               </l>
+               <l>These armies to fight for, and maintaine are sent</l>
+               <l>The Lawes of England, but New-England is meant:</l>
+               <l>And though such disorders are broke in of late,</l>
+               <l>They keepe it the Anagram still of a State;</l>
+               <l>For still they are plotting such riches to bring</l>
+               <l>To make <hi>Charles</hi> a rich and a glorious King:</l>
+               <l>And by this rebellion this good they will doe him,</l>
+               <l>They'l forfeit all their estates unto him.</l>
+               <l>No Clergy must meddle in spirituall affaires,</l>
+               <l>But <hi>Layton</hi> ne're heard of it, having lost his eares,</l>
+               <l>For that he might be deafe to the prisoners cryes,</l>
+               <l>To a spirituall Gaolers place he must rise,</l>
+               <l>The rest have good reason for what they shall doe,</l>
+               <l>For they are both Clergy and Laity too,</l>
+               <l>Or else at the best when the question is stated,</l>
+               <l>They are but mechanicks newly translated.</l>
+               <l>They may be Committees to practise their bawling,</l>
+               <l>For stea<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>lng of horse is spirituall calling.</l>
+               <l>The reason why people our Martyrs adore,</l>
+               <l>'Cause their eares being cut off, their fame sounds the more.</l>
+               <l>Twas ordered the goods of Malignants and lands</l>
+               <l>Shall be shar'd among them, and took into their hands.</l>
+               <l>They have sent spirits for more malignants to come,</l>
+               <l>That every one in the house may have some.</l>
+               <l>
+                  <hi>Kimbolton</hi> and <hi>Say,</hi> and the rest of the Scrowles,</l>
+               <l>That have melancholy looks but sanguine soules,</l>
+               <l>Doe now by pretences to rebellion draw,</l>
+               <l>To maintaine the Law, but they meane the Club-law.</l>
+               <l>Then downe to Guildhall they returne their thanks</l>
+               <l>To the fooles whom the Lottery has cheated with b<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>anks.</l>
+            </lg>
+            <lg>
+               <head>Saturday.</head>
+               <l>This day there came newes of the taking a ship,</l>
+               <l>(To see what strange wonders are wrought in the deepe)</l>
+               <l>That a troop of their horse ran into the Sea,</l>
+               <l>And puld out a ship alive to the Key,</l>
+               <pb facs="tcp:40588:5"/>
+               <l>And after much prating and fighting, they say,</l>
+               <l>The Ropes serv'd for traces to draw her away.</l>
+               <l>Sure these were Sea-horses, or else by their lying</l>
+               <l>They'd make them as famous for swimming as flying.</l>
+               <l>The rest of the day they spent to bemone</l>
+               <l>Their brother the Roundhead that to Tyburne was gone,</l>
+               <l>And could not but think it a barbarous thing</l>
+               <l>To hang him for kn<gap reason="illegible" resp="#keyers" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ng a friend to the King:</l>
+               <l>He was newly baptized, and held it was good</l>
+               <l>To be washed, yet not in water, but blood,</l>
+               <l>They ordered for his honour to cut off his eare<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>,</l>
+               <l>And make him a Martyr, but a Zelot appeares,</l>
+               <l>And affirm'd he was a Martyr, for although twas his fate</l>
+               <l>To be hang'd, yet he dy'd for the good of the State.</l>
+               <l>Then all fell to plotting of matters so deepe.</l>
+               <l>That the silent Speake<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <gap reason="illegible" resp="#keyers" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ll downe fast asleep,</l>
+               <l>He recovers himselfe, and <gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ubs up his eyes,</l>
+               <l>Then motions the House that twas time to rise.</l>
+               <l>So home they went all, and their businesse referr'd</l>
+               <l>To the Close Committee by them to be heard,</l>
+               <l>They took it upon them, but what they did doe</l>
+               <l>Take notice that none but themselves must know.</l>
+            </lg>
+            <lg>
+               <head>Postscript.</head>
+               <l>THus far we have gone in rhyme to disclose</l>
+               <l>What never was utter'd by any in prose,</l>
+               <l>If any be wanting, twas by a mishap,</l>
+               <l>Because we forgot to write by the Map,</l>
+               <l>For over the kingdome their orders are spred</l>
+               <l>They have made the whole body as big as the head,</l>
+               <l>And now made such work, that all that they doe</l>
+               <l>Is but to reade Letters, and answer them too.</l>
+               <l>We thought to make <hi>Finis,</hi> the end of the story,</l>
+               <l>But that we shall have more businesse for you,</l>
+               <l>For (as their proceedings doe) so shall our pen.</l>
+               <l>Run roundly from Monday to Monday agen,</l>
+               <l>And finde we have begun, out Mu<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e doth intend</l>
+               <l>To have (like their votes) no beginning nor</l>
+            </lg>
+         </div>
+         <trailer>End.</trailer>
+      </body>
+      <back>
+         <div type="colophon">
+            <p>Printed at Oxford for <hi>H. H. 1643.</hi>
+            </p>
+            <pb facs="tcp:40588:5"/>
+         </div>
+      </back>
+   </text>
+</TEI>
